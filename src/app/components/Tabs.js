@@ -31,7 +31,13 @@ export default function Tabs() {
   const router = useRouter();
 
   useEffect(() => {
-    setTabs(initialTabs);
+    // Спробуємо відновити стан з localStorage
+    const storedTabs = JSON.parse(localStorage.getItem("tabs"));
+    if (storedTabs) {
+      setTabs(storedTabs);
+    } else {
+      setTabs(initialTabs);
+    }
   }, []);
 
   useEffect(() => {
@@ -58,6 +64,11 @@ export default function Tabs() {
     adjustTabs();
     window.addEventListener("resize", adjustTabs);
     return () => window.removeEventListener("resize", adjustTabs);
+  }, [tabs]);
+
+  useEffect(() => {
+    // Зберігаємо вкладки в localStorage при зміні
+    localStorage.setItem("tabs", JSON.stringify(tabs));
   }, [tabs]);
 
   const handleDragEnd = (result) => {

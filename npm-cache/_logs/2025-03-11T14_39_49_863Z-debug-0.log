@@ -1,0 +1,12 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.18.0
+3 silly config load:file:C:\Users\1234\AppData\Roaming\nvm\v18.18.0\node_modules\npm\npmrc
+4 silly config load:file:D:\exonn-tabs_1\.npmrc
+5 silly config load:file:C:\Users\1234\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:D:\exonn-tabs_1\npm-cache\_logs\2025-03-11T14_39_49_863Z-
+10 verbose logfile D:\exonn-tabs_1\npm-cache\_logs\2025-03-11T14_39_49_863Z-debug-0.log
+11 silly logfile done cleaning log files

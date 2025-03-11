@@ -1,0 +1,17 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.18.0
+3 silly config load:file:C:\Users\1234\AppData\Roaming\nvm\v18.18.0\node_modules\npm\npmrc
+4 silly config load:file:D:\exonn-tabs_1\.npmrc
+5 silly config load:file:C:\Users\1234\.npmrc
+6 silly config load:file:C:\Program Files\nodejs\etc\npmrc
+7 verbose title npm config get registry
+8 verbose argv "config" "get" "registry" "--no-workspaces"
+9 verbose logfile logs-max:10 dir:D:\exonn-tabs_1\npm-cache\_logs\2025-03-11T14_40_07_126Z-
+10 verbose logfile D:\exonn-tabs_1\npm-cache\_logs\2025-03-11T14_40_07_126Z-debug-0.log
+11 verbose cwd D:\exonn-tabs_1
+12 verbose os Windows_NT 10.0.19045
+13 verbose node v18.18.0
+14 verbose npm  v10.8.2
+15 verbose exit 0
+16 info ok
